@@ -22,23 +22,21 @@
     <title>My CV</title>
     <!-- CSS tự định nghĩa -->
     <style>
-        .body{
-            background: rgb(29, 42, 42);
-        }
+      body {
+        background: rgb(29, 42, 42);
+      }
       .container {
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         border-radius: 20px;
-        background: rgb(220, 196, 131);
+        background: rgb(107, 174, 224);
         /* order: 0; */
-        
       }
-      .col-4{
+      .col-4 {
         /* order: 1; */
       }
       .info {
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         border-radius: 20px;
-        
       }
 
       .skill {
@@ -59,8 +57,8 @@
         justify-content: center;
         align-items: center;
         width: 150px;
-        height: 150px;
-        background-color: #f5f5f5;
+        height: 50px;
+        background-color: #6a7f61;
         border-radius: 10px;
         padding: 10px;
         text-align: center;
@@ -69,15 +67,21 @@
       .company {
         border-radius: 20px;
         box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+
+      }
+      .tittle {
+        background-color: rgb(131, 202, 169);
+        border-bottom-color: rgb(0, 0, 0);
+        border-radius: 10px;
       }
     </style>
   </head>
   <body>
     <div class="container">
       <div class="row">
-        <div class="col-4">
+        <div class="col-lg-4">
           <div class="info mt-4">
-            <h2>Liên hệ</h2>
+            <h2 class="tittle">Liên hệ</h2>
             <p>Tên: Nguyễn Văn A</p>
             <p>Email: example@gmail.com</p>
             <p>Điện thoại: 0123456789</p>
@@ -86,26 +90,26 @@
 
         <div class="col-8">
           <div class="skill mt-4">
-            <h2>Kỹ năng</h2>
+            <h2 class="tittle">Kỹ năng</h2>
             <div class="skill-item">
-              <img src="https://via.placeholder.com/100x100" alt="" />
+              <!-- <img src="https://via.placeholder.com/100x100" alt="" /> -->
               <p>Java Spring Boot</p>
             </div>
             <div class="skill-item">
-              <img src="https://via.placeholder.com/100x100" alt="" />
+              <!-- <img src="https://via.placeholder.com/100x100" alt="" /> -->
               <p>Spring Security</p>
             </div>
             <div class="skill-item">
-              <img src="https://via.placeholder.com/100x100" alt="" />
+              <!-- <img src="https://via.placeholder.com/100x100" alt="" /> -->
               <p>Spring Data JPA</p>
             </div>
             <div class="skill-item">
-              <img src="https://via.placeholder.com/100x100" alt="" />
+              <!-- <img src="https://via.placeholder.com/100x100" alt="" /> -->
               <p>MySQL</p>
             </div>
           </div>
           <div class="project">
-            <h2>Dự án</h2>
+            <h2 class="tittle">Dự án</h2>
             <ul>
               <li>
                 <h4>Project 1</h4>
@@ -122,7 +126,7 @@
             </ul>
           </div>
           <div class="company">
-            <h2>Công ty</h2>
+            <h2 class="tittle">Công ty</h2>
             <ul>
               <li>
                 <h4>company 1</h4>
